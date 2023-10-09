@@ -1,0 +1,48 @@
+.component-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 40px;
+    color: #080808;
+    margin: 5px 5px 0px 5px;
+}
+
+.sub-header {
+    font-size: 20px;
+    margin: 0px 5px 10px 5px;
+    color: #838282;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.blue-button {
+    border-color: #838282;
+    background-color: transparent;
+    color: black;
+    border-width: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.blue-button .button-text{
+    font-weight: 600;
+    color: #434242;
+    margin-bottom: 0;
+}
+
+.blue-button .button-subtext{
+    color: #838282;
+    margin-top: 0;
+}
